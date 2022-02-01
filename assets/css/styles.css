@@ -460,9 +460,9 @@ img {
   font-size: var(--smaller-font-size);
 }
 
-/*========== SKILLS, CHARACTERS AND LANGUAGES ==========*/
+/*========== SKILLS, PROGRAMMING AND LANGUAGES ==========*/
 .skills__content,
-.character__content,
+.programming__content,
 .languages__content {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -472,7 +472,7 @@ img {
 }
 
 .skills__name,
-.character__name,
+.programming__name,
 .languages__name {
   display: flex;
   align-items: center;
@@ -480,7 +480,7 @@ img {
 }
 
 .skills__circle,
-.character__circle,
+.programming__circle,
 .languages__circle {
   display: inline-block;
   width: 5px;
