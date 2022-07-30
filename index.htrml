@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Eno Leriand</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+              <a href="#" class="nav__logo">Eno Leriand</a>
+              
+              <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">
+                      <i class="bx bx-home nav__icon" ></i>Home
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#profile" class="nav__link">
+                      <i class="bx bx-user nav__icon"></i>Profile
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#education" class="nav__link">
+                      <i class="bx bx-book nav__icon"></i>Education
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                      <i class="bx bx-receipt nav__icon"></i>Skills
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#experience" class="nav__link">
+                      <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#certificates" class="nav__link">
+                      <i class="bx bx-award nav__icon"></i>Certificates
+                    </a>
+                  </li>
+                  
+                  <!--<li class="nav__item">
+                    <a href="#references" class="nav__link">
+                      <i class="bx bx-link-external nav__icon"></i>References
+                    </a>
+                  </li>-->
+                  
+                  <li class="nav__item">
+                    <a href="#character" class="nav__link">
+                      <i class='bx bxs-user-detail nav__icon'></i>character
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt nav__icon"></i>
+              </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                          <div class="home__data bd-grid">
+                            <img src="assets/img/avatar.jpeg" class="home__img">
+
+                            <h1 class="home__title">I am<b> ENO</b></h1>
+                            <h3 class="home__profession">Researcher | Pentester</h3>
+
+                            <!-- Button to download CV saved in the pdf folder. Available -->
+                            <div>
+                              <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                            </div>
+                          </div>
+
+                          <div class="home__address bd-grid">
+                            <span class="home__information">
+                              <i class="bx bx-map home__icon"></i>Makassar, Indonesia
+                            </span>
+                          </div>
+
+                          <!-- <div class="home__address bd-grid">
+                            <span class="home__information">
+                              <i class="bx bx-phone home__icon"></i> 6285233551742
+                            </span>
+                          </div> -->
+
+                          <div class="home__address bd-grid">
+                              <a href="mailto:0x@3n0.us" target="_blank" class="social__link">
+                              <i class="bx bx-envelope home__icon"></i> 0x@3n0.us 
+			    </a>
+                          </div> 
+
+                          <div class="home__address bd-grid">
+                             <a href="https://0x.3n0.us" target="_blank" class="social__link">
+                             <i class='bx bx-cube home__icon'></i> 0x.3n0.us
+                           </a>
+                          </div>                             
+                        </div> 
+
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>                              
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                          <a href="https://www.linkedin.com/in/0x3n0/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i> Eno ✓
+                          </a>
+                            
+                          <!--<a href="https://www.instagram.com/0x3n0/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram social__icon' ></i> Eno leriand
+                          </a>-->
+                            
+                          <a href="https://twitter.com/0x3n0" target="_blank" class="social__link">
+                            <i class='bx bxl-twitter social__icon'></i> Eno leriand
+                          </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">Proficient at web application/network security testing that could affect users in a dangerous way. Able t diagnosis computer hardware and software problems.</p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                          <div class="education__content">
+                            <div class="education__time">
+                              <span class="education__rounder"></span>
+                              <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                              <h3 class="education__title">STMIK KHARISMA Makassar</h3>
+                              <span class="education__studies">Computer Science</span>
+                              <span class="education__year">2014 - 2018</span>
+                            </div>
+                          </div>
+
+                          <div class="education__content">
+                            <div class="education__time">
+                              <span class="education__rounder"></span>
+                              <!--<span class="education__line"></span>-->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                              <h3 class="education__title">SMK Negeri 2 BOMBANA</h3>
+                              <span class="education__studies">Computer Network Engineering</span>
+                              <span class="education__year">2011 - 2014</span>
+                            </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                          <ul class="skills__data">
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> Cybersecurity
+                            </li>
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> Penetration Testing
+                            </li>
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> Vulnerability Assessment
+                            </li>
+                           <!-- <li class="skills__name">
+                              <span class="skills__circle"></span> Cloud security
+                            </li> -->
+                          </ul>
+
+                           <ul class="skills__data">
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> Vulnerability Research
+                            </li>
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> Network Security
+                            </li>
+                           <!-- <li class="skills__name">
+                              <span class="skills__circle"></span> Cryptography
+                            </li> -->
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> Red Team
+                            </li>                               
+                          </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">EXPERIENCE</h2>
+
+                        <div class="experience__container bd-grid">
+                          <div class="experience__content">
+                            <div class="experience__time">
+                              <span class="experience__rounder"></span>
+                              <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                              <h3 class="experience__title">Researcher</h3>
+                              <span class="experience__company">Yogosha - Freelance | 2022</span>
+                              <p class="experience__description">
+                                  <p>- Bug Hunting </p>
+                                  <p>- Finding vulnerabilities in web app, Mobile app, API's & Network </p>
+                                  <p>- Reported Various vulnerabilities from Critical to low level</p>
+                            </div>
+                          </div>
+
+                          <div class="experience__content">
+                            <div class="experience__time">
+                              <span class="experience__rounder"></span>
+                              <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                              <h3 class="experience__title">Researcher</h3>
+                              <span class="experience__company">Synack Red Team - Part time | 2020</span>
+                              <p class="experience__description">
+                                  <p>- identify vulnerabilities in Web/Mobile Apps, Thick Client, In-Prem and Cloud Infrastructure </p>
+                                  <p>- Vulnerability finding reports including presenting results to non-technical managers </p>
+                                  <p>- Develop automation tools to improve vulnerability identification at scale </p>
+                            </div>
+                          </div> 
+
+                          <div class="experience__content">
+                            <div class="experience__time">
+                              <span class="experience__rounder"></span>
+                              <!-- <span class="experience__line"></span> -->
+                            </div>
+                              
+                            <div class="experience__data bd-grid">
+                              <h3 class="experience__title">Researcher</h3>
+                              <span class="experience__company">Bugcrowd - Freelance | 2019</span>
+                              <p class="experience__description">                                  
+                                  <p>- Bug Bounty Hunting </p>
+                                  <p>- Finding vulnerabilities in web apps, Mobile apps, API's & Network </p>
+                                  <p>- Reported Various vulnerabilities from Critical to low level</p>
+                            </div>
+                          </div>                              
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">CERTIFICATES</h2>
+
+                        <div class="certificate__container bd-grid">
+                          <div class="certificate__content">
+                            <h3 class="certificate__title">Licensed Penetration Tester (LPT)</h3>
+                            <p class="certificate__description"><p>Issued Feb 2019 - Expired Jun 2021</p>                        
+                              Credential ID ECC2058493671</p>
+                          </div>
+
+                          <div class="certificate__content">
+                            <h3 class="certificate__title">Fortinet Network Security Expert (NSE)</h3>
+                            <p class="certificate__description"><p>Issued Feb 2020 - Expires May 2023</p>
+                              Credential ID 11rQWWbfOX2</p>
+                          </div>
+
+                          <div class="certificate__content">
+                            <h3 class="certificate__title">Certified Network Security Specialist (CNSS)</h3>
+                            <p class="certificate__description"><p>Issued Feb 2020 - No Expired</p>
+                              Credential ID 17549044</p>
+                          </div>
+
+                          <div class="certificate__content">
+                            <h3 class="certificate__title">CyberOps Associate (SOC)</h3>
+                            <p class="certificate__description"><p>Issued June 2022 - No Expires </p>
+                              Credential ID 29549023</p>
+                          </div>
+                        </div>
+                    </section>
+                    
+                    <!--========== PRORAMMING =========-->
+                    <section class="character section" id="character">
+                        <h2 class="section-title">programming</h2>
+
+                        <div class="character__content bd-grid">
+                          <ul class="character__data">
+                            <li class="character__name">
+                              <span class="character__circle"></span> Bash
+                            </li>
+                            <li class="character__name">
+                              <span class="character__circle"></span> java
+                            </li>
+                            <li class="character__name">
+                              <span class="character__circle"></span> .NET
+                            </li>                                
+                          </ul>
+
+                           <ul class="character__data">
+                            <li class="character__name">
+                              <span class="character__circle"></span> Python
+                            </li>
+                            <li class="character__name">
+                              <span class="character__circle"></span> Golang
+                            </li>
+                            <li class="character__name">
+                              <span class="character__circle"></span> C/C++
+                            </li>                                 
+                          </ul>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========
+                    <section class="languages section">
+                        <h2 class="section-title">LANGUAGES</h2>
+
+                        <div class="languages__container">
+                          <div class="languages__content bd-grid">
+                            <li class="languages__name">
+                              <span class="languages__circle"></span> Indonesian
+                            </li>
+                            <li class="languages__name">
+                              <span class="languages__circle"></span> English
+                            </li>
+                          </div>
+                        </div>
+                    </section> -->
+                    
+                    <!--========== INTERESTS ==========-->
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+          <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
