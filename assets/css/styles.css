@@ -461,7 +461,8 @@ img {
   color: var(--text-color);
 }
 
-.education__year {
+.education__year,
+.certificate__year {
   font-size: var(--smaller-font-size);
 }
 
@@ -499,7 +500,8 @@ img {
 .certificate__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
-}
+} 
+*/
 
 
 /*========== REFERENCES ==========*/
