@@ -456,7 +456,8 @@ img {
 }
 
 .education__studies,
-.experience__company {
+.experience__company,
+.certificate__description {
   font-size: var(--small-font-size);
   color: var(--text-color);
 }
