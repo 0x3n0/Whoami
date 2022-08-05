@@ -411,8 +411,7 @@ img {
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
 .education__content,
-.experience__content,
-.certificate__content {
+.experience__content {
   display: flex;
 }
 
@@ -422,8 +421,7 @@ img {
 }
 
 .education__rounder,
-.experience__rounder,
-.certificate__rounder {
+.experience__rounder {
   position: relative;
   display: block;
   width: 16px;
@@ -434,8 +432,7 @@ img {
 }
 
 .education__line,
-.experience__line,
-.certificate__line {
+.experience__line {
   display: block;
   width: 2px;
   height: 110%;
@@ -444,26 +441,22 @@ img {
 }
 
 .education__data,
-.experience__data,
-.certificate__data {
+.experience__data {
   gap: .5rem;
 }
 
 .education__title,
-.experience__title,
-.certificate__title {
+.experience__title {
   font-size: var(--h3-font-size);
 }
 
 .education__studies,
-.experience__company,
-.certificate__description {
+.experience__company {
   font-size: var(--small-font-size);
   color: var(--text-color);
 }
 
-.education__year,
-.certificate__year {
+.education__year {
   font-size: var(--smaller-font-size);
 }
 
@@ -501,9 +494,7 @@ img {
 .certificate__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
-} 
-*/
-
+}
 
 /*========== REFERENCES ==========*/
 .references__content {
